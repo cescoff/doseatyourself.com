@@ -24,8 +24,8 @@ pipeline {
                     echo "Copying html files"
                     sh '''
                         pwd
-                        cp *.html /var/www/oristool/
-                        cp -r img /var/www/oristool/
+                        cp *.html /var/www/doseatyourself/
+                        cp -r img /var/www/doseatyourself/
                     '''
                     echo "Done copying html files"
                     echo "Deploying app server"
